@@ -1,7 +1,7 @@
-var tape = require('tape');
-var event_stream = require('event-stream');
+const tape = require('tape');
+const event_stream = require('event-stream');
 
-var extractFields = require('../../src/components/extractFields');
+const extractFields = require('../../src/components/extractFields');
 
 /*
  * Test a stream with the following process:

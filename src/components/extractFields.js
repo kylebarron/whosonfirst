@@ -1,5 +1,5 @@
-var through2 = require('through2');
-var _ = require('lodash');
+const through2 = require('through2');
+const _ = require('lodash');
 
 // hierarchy in importance-descending order of population fields
 const population_hierarchy = [
